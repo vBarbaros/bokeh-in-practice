@@ -57,4 +57,6 @@ step 7 - run the following command from terminal; it should open a browser at `h
 $ cd src/lines/
 $ bokeh serve bokeh_simple_line.py --show
 ```
+
 step 8 - enjoy it!
+![bokeh_simple_line.gif](../../gifs/lines/bokeh_simple_line.gif )
