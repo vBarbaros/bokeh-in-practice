@@ -29,7 +29,7 @@ this will give you the possibility to change the `data` interactively, from your
 data_source = main_line.data_source
 ```
 
-step 6 - define a `handler` function that will be called on an event, and define your changes
+step 6 - define a `handler` function that will be called on an event and define your changes
 of the `data`, as you wish (I chose to add new entries all the time using some random values times
 2021, because it's in the year of 2021 that we started this repository ;) )
 ```
@@ -40,7 +40,7 @@ def handler_main_plot(event):
     data_source.data = new_data
 ```
 
-step 7 - add a `button` widget and set the `handler` to be called its click
+step 7 - add a `button` widget and set the `handler` to be called on each click
 ```
 button = Button(label="Click Here")
 button.on_click(handler_main_plot)
@@ -51,12 +51,12 @@ step 8 - configure the `root` elements in the `Document` object
 curdoc().add_root(column(main_plot, button))
 ```
 
-step 7 - run the following command from terminal; it should open a browser at `http://localhost:5006/bokeh_simple_line
-`
+step 9 - run the following command from terminal
+- it should open a browser at `http://localhost:5006/bokeh_simple_line`
 ```
 $ cd src/lines/
 $ bokeh serve bokeh_simple_line.py --show
 ```
 
-step 8 - enjoy it!
-![bokeh_simple_line.gif](../../gifs/lines/bokeh_simple_line.gif )
+step 10 - enjoy it!
+![bokeh_simple_line.gif](../../images/lines/bokeh_simple_line.gif )
