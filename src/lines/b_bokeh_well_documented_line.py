@@ -43,4 +43,4 @@ main_button.on_click(handler_main_plot)
 curdoc().add_root(column(main_plot, main_button))
 
 # run the following command from terminal
-# bokeh serve bokeh_simple_line.py --show
+# bokeh serve b_bokeh_well_documented_line.py --show

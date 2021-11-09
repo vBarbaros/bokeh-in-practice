@@ -22,8 +22,9 @@ Collection of scripts & recipes demonstrating usual || not so usual usage of Bok
 ### Lines
   <table>
   <tr>
-    <td> <img src="images/lines/bokeh_simple_line.gif"  alt="simple line" width=450px height=450px></td>
-    <td><img src="images/lines/bokeh_well_documented_line.gif" alt="well documented line" width=450px height=450px></td>
+    <td> <img src="images/lines/a_bokeh_simple_line.gif"  alt="simple line" width="300px" height="300px" title="Simple line"></td>
+    <td><img src="images/lines/b_bokeh_well_documented_line.gif" alt="well documented line" width=300px height=300px title="Well documented line"></td>
+    <td><img src="images/lines/c_bokeh_two_lines.gif" alt="two different lines" width=300px height=300px title="Two lines"></td>
   </tr>
   </table>
 
@@ -31,5 +32,10 @@ Collection of scripts & recipes demonstrating usual || not so usual usage of Bok
 
 * The author of this repository has no relationship whatsoever with the Bokeh product; he just enjoyed working with it
   so much so that he decided to provide some easier to follow ways of working, compared to what he found online, on his
-  first experience with Bokeh
+  first experience with Bokeh.
+
+
+## [License](https://github.com/vBarbaros/bokeh-in-practice/blob/main/LICENSE)
+
+MIT © [Victor Barbaros](https://github.com/vBarbaros)
 

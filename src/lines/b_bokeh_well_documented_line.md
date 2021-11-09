@@ -1,4 +1,4 @@
-### Well-Documented Line Example
+### (b) Well-Documented Line Example
 step 1 - import all you need
 ```
 from random import random
@@ -43,26 +43,26 @@ main_plot.yaxis.axis_label = "Randomly generated values (integers)"
 main_plot.yaxis.axis_label_text_font_style = "italic"
 ```
 
-step 6 - define two elements, a `line` and a `circle` in your figure, and specify:
+step 6 - define two elements, a `line` and a `circle` in our figure, and specify:
 - the `x` and `y` values
 - the line `width` and `color`,
 - additionally, define the `legend_label` parameter and ensure it has the same value for circle and line elements
-  - this is important to do since we'll use the same data source for both of these elements
+  - this is important to do since we'll use the same data source for both of these elements,
   and they will superpose each other in the plot in a nice way while showing a nice legend as well,
-  to make your plot more readable;
+  to make our plot more readable;
 ```
 main_line = main_plot.line(x=X_AXIS, y=Y_AXIS, line_width=2, color='red', legend_label='Random integers')
 main_circle = main_plot.circle(x=X_AXIS, y=Y_AXIS, line_width=2, color='red', legend_label='Random integers', size=10)
 ```
 
-step 7 - define a variable that references your `data_source` for each of the defined elemets, `main_line` and `main_circle`
-- this gives you the possibility to change the `data` interactively from your dashboard, for each of the elements in your plot
+step 7 - define the variables to reference the `data_source` for each of the defined elements, `main_line` and `main_circle`
+- this gives you the possibility to change the `data` interactively from our dashboard, for each of the elements in our plot
 ```
 data_source_line = main_line.data_source
 data_source_circle = main_circle.data_source
 ```
 
-step 8 - define a `handler` function that will be called on an event and define your changes
+step 8 - define a `handler` function that will be called on an event and define our changes
 of the `data`, as you wish:
 - here, we chose to keep the `X-axis` values the same as initially defined
 - the `Y-axis` values will be generated randomly
@@ -95,4 +95,4 @@ $ bokeh serve bokeh_well_documented_line.py --show
 ```
 
 step 12 - enjoy it!
-![bokeh_simple_line.gif](../../images/lines/bokeh_well_documented_line.gif )
+![bokeh_simple_line.gif](../../images/lines/b_bokeh_well_documented_line.gif)

@@ -1,4 +1,4 @@
-### Simple Line Example
+### (a) Simple Line Example
 step 1 - import all you need
 ```
 from random import random
@@ -18,18 +18,18 @@ step 3 - define a `figure` object with minimal size params, only
 main_plot = figure(width=900, height=900)
 ```
 
-step 4 - define the main `line` in your figure, again, with minimal params
+step 4 - define the main `line` in our figure, again, with minimal params
 ```
 main_line = main_plot.line(x=X_AXIS, y=Y_AXIS, line_width=2, color='red')
 ```
 
-step 5 - define a variable that references your `data_source` of the defined `main_line`; 
-this will give you the possibility to change the `data` interactively, from your dashboard
+step 5 - define a variable that references our `data_source` of the defined `main_line`; 
+this will give you the possibility to change the `data` interactively, from our dashboard
 ```
 data_source = main_line.data_source
 ```
 
-step 6 - define a `handler` function that will be called on an event and define your changes
+step 6 - define a `handler` function that will be called on an event and define our changes
 of the `data`, as you wish (I chose to add new entries all the time using some random values times
 2021, because it's in the year of 2021 that we started this repository ;) )
 ```
@@ -59,4 +59,4 @@ $ bokeh serve bokeh_simple_line.py --show
 ```
 
 step 10 - enjoy it!
-![bokeh_simple_line.gif](../../images/lines/bokeh_simple_line.gif )
+![bokeh_simple_line.gif](../../images/lines/a_bokeh_simple_line.gif)
