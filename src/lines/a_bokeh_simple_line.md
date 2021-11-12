@@ -55,7 +55,7 @@ step 9 - run the following command from terminal
 - it should open a browser at `http://localhost:5006/bokeh_simple_line`
 ```
 $ cd src/lines/
-$ bokeh serve bokeh_simple_line.py --show
+$ bokeh serve a_bokeh_simple_line.py --show
 ```
 
 step 10 - enjoy it!

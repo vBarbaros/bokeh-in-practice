@@ -132,7 +132,7 @@ step 12 - run the following command from terminal
 - it should open a browser at `http://localhost:5006/bokeh_well_documented_line`
 ```
 $ cd src/lines/
-$ bokeh serve bokeh_well_documented_line.py --show
+$ bokeh serve c_bokeh_two_lines.py --show
 ```
 
 step 13 - enjoy it!

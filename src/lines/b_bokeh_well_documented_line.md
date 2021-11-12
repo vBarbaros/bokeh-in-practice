@@ -91,7 +91,7 @@ step 11 - run the following command from terminal
 - it should open a browser at `http://localhost:5006/bokeh_well_documented_line`
 ```
 $ cd src/lines/
-$ bokeh serve bokeh_well_documented_line.py --show
+$ bokeh serve b_bokeh_well_documented_line.py --show
 ```
 
 step 12 - enjoy it!

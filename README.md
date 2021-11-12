@@ -22,9 +22,14 @@ Collection of scripts & recipes demonstrating usual || not so usual usage of Bok
 ### Lines
   <table>
   <tr>
-    <td> <img src="images/lines/a_bokeh_simple_line.gif"  alt="simple line" width="300px" height="300px" title="Simple line"></td>
-    <td><img src="images/lines/b_bokeh_well_documented_line.gif" alt="well documented line" width=300px height=300px title="Well documented line"></td>
-    <td><img src="images/lines/c_bokeh_two_lines.gif" alt="two different lines" width=300px height=300px title="Two lines"></td>
+    <td> <img src="images/lines/a_bokeh_simple_line.gif"  alt="simple line" width="250px" height="250px" title="Simple line"></td>
+    <td><img src="images/lines/b_bokeh_well_documented_line.gif" alt="well documented line" width=250px height=250px title="Well documented line"></td>
+    <td><img src="images/lines/c_bokeh_two_lines.gif" alt="two different lines" width=250px height=250px title="Two lines"></td>
+  </tr>
+  <tr>
+    <td> <img src="images/lines/d_bokeh_two_lines_separate_handler.gif"  alt="separate handlers" width="250px" height="250px" title="Handler for each line"></td>
+    <td><img src="images/lines/work-work-in-progress.gif" alt="WIP" width=250px height=250px title="WIP"></td>
+    <td><img src="images/lines/work-work-in-progress.gif" alt="WIP" width=250px height=250px title="WIP"></td>
   </tr>
   </table>
 
@@ -32,10 +37,11 @@ Collection of scripts & recipes demonstrating usual || not so usual usage of Bok
 
 * The author of this repository has no relationship whatsoever with the Bokeh product; he just enjoyed working with it
   so much so that he decided to provide some easier to follow ways of working, compared to what he found online, on his
-  first experience with Bokeh.
+  first experience with Bokeh
+* The WIP gif was found as publicly available, at [tenor.com](https://tenor.com/view/work-work-in-progress-wip-hurray-design-in-progress-gif-18632420)
 
 
 ## [License](https://github.com/vBarbaros/bokeh-in-practice/blob/main/LICENSE)
 
-MIT © [Victor Barbaros](https://github.com/vBarbaros)
+MIT © [Victor Barbaros, 2021](https://github.com/vBarbaros)
 
