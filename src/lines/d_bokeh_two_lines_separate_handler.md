@@ -1,4 +1,4 @@
-### (c) Sine & Cosine lines Lines Example
+### (d) Sine & Cosine lines Lines Example - Separate Handlers for each Plot
 step 1 - import all you need
 ```
 import math
