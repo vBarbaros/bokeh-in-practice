@@ -53,7 +53,7 @@ step 6 - define two elements for each of the sine and cosine graphs that we are 
 main_line_sin = main_plot.line(x="x_sin", y="y_sin", source=DATA_SOURCE_SINE, line_width=3, color='red',
                                line_dash=[2, 2],
                                legend_label='Random sin() values')
-main_circle_sin = main_plot.cross(x="x_sin", y="y_sin", source=DATA_SOURCE_SINE, line_width=3, color='blue',
+main_cross_sin = main_plot.cross(x="x_sin", y="y_sin", source=DATA_SOURCE_SINE, line_width=3, color='blue',
                                    legend_label='Random sin() values',
                                    size=15)
 ```
@@ -69,7 +69,7 @@ main_circle_sin = main_plot.cross(x="x_sin", y="y_sin", source=DATA_SOURCE_SINE,
 main_line_cos = main_plot.line(x="x_cos", y="y_cos", source=DATA_SOURCE_COSINE, line_width=3, color='green',
                                line_dash=[4, 4],
                                legend_label='Random cos() values')
-main_square_cos = main_plot.triangle(x="x_cos", y="y_cos", source=DATA_SOURCE_COSINE, line_width=23, color='black',
+main_triangle_cos = main_plot.triangle(x="x_cos", y="y_cos", source=DATA_SOURCE_COSINE, line_width=23, color='black',
                                    fill_color=None,
                                    legend_label='Random cos() values', size=15)
 ```
@@ -86,14 +86,14 @@ main_plot.legend.title_text_font_size = "10px"
 #### Now, we don't need individual reference objects for each of the `data sources` for each element in our figure, and the `handler` functions become much more simple (see below)
 step 8 - (NEW from previous models) define a `handler` function for each plot - it will be called on an event and define our changes
 of the `data`:
-- define the handler for the `sine` functions/plot
+- define the handler for the `sine` function/plot
 ```
 def handler_sine_plot(event):
     seed_int = random()
     DATA_SOURCE_SINE.data['y_sin'] = [math.sin(i + seed_int) for i in range(10)]
 ```
 
-- define the handler for the `cosine` functions/plot
+- define the handler for the `cosine` function/plot
 ```
 def handler_cosine_plot(event):
     seed_int = random()

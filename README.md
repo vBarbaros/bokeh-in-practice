@@ -18,7 +18,7 @@ Collection of scripts & recipes demonstrating usual || not so usual usage of Bok
 
 ## See examples of:
 
-### Lines & Curves
+### Plot Lines & Curves (from simple/basic examples to well documented and annotated curves and plots)
 
   <table>
   <tr>
@@ -29,9 +29,18 @@ Collection of scripts & recipes demonstrating usual || not so usual usage of Bok
   <tr>
     <td> <img src="images/lines/d_bokeh_two_lines_separate_handler.gif"  alt="Separate handlers" width="250px" height="250px" title="Handler function for each line"></td>
     <td><img src="images/lines/e_bokeh_two_lines_data_source.gif" alt="Clean DataSource usage" width=250px height=250px title="Clean DataSource usage"></td>
+    <td><img src="images/lines/f_three_lines.gif" alt="More lines and sky-is-the-limit" width=250px height=250px title="More lines and sky-is-the-limit"></td>
+  </tr>
+  </table>
+
+### Fetch Data from different sources (preprocessed CSV files, directly from the web, etc)
+
+  <table>
+  <tr>
     <td><img src="images/lines/work-work-in-progress.gif" alt="WIP" width=250px height=250px title="WIP"></td>
   </tr>
   </table>
+
 
 ### Acknowledgements
 
