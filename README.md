@@ -14,7 +14,7 @@ Collection of scripts & recipes demonstrating usual || not so usual usage of Bok
 ## What you will learn
 
 * You'll learn to build step-by-step plots
-* The examples start from simple and basic one to gradually becoming more complex
+* Examples start from simple ones to gradually becoming more complex/interesting
 
 ## See examples of:
 
@@ -22,14 +22,14 @@ Collection of scripts & recipes demonstrating usual || not so usual usage of Bok
 
   <table>
   <tr>
-    <td> <img src="images/lines/a_bokeh_simple_line.gif"  alt="Simple line" width="250px" height="250px" title="Simple line"></td>
-    <td><img src="images/lines/b_bokeh_well_documented_line.gif" alt="Well documented line" width=250px height=250px title="Well documented line"></td>
-    <td><img src="images/lines/c_bokeh_two_lines.gif" alt="Two different lines" width=250px height=250px title="Two lines"></td>
+    <td> <img src="images/lines/a_bokeh_simple_line.gif"  alt="Simple line" width="200px" height="200px" title="Simple line"></td>
+    <td><img src="images/lines/b_bokeh_well_documented_line.gif" alt="Well documented line" width=200px height=200px title="Well documented line"></td>
+    <td><img src="images/lines/c_bokeh_two_lines.gif" alt="Two different lines" width=200px height=200px title="Two lines"></td>
   </tr>
   <tr>
-    <td> <img src="images/lines/d_bokeh_two_lines_separate_handler.gif"  alt="Separate handlers" width="250px" height="250px" title="Handler function for each line"></td>
-    <td><img src="images/lines/e_bokeh_two_lines_data_source.gif" alt="Clean DataSource usage" width=250px height=250px title="Clean DataSource usage"></td>
-    <td><img src="images/lines/f_three_lines.gif" alt="More lines and sky-is-the-limit" width=250px height=250px title="More lines and sky-is-the-limit"></td>
+    <td> <img src="images/lines/d_bokeh_two_lines_separate_handler.gif"  alt="Separate handlers" width="200px" height="200px" title="Handler function for each line"></td>
+    <td><img src="images/lines/e_bokeh_two_lines_data_source.gif" alt="Clean DataSource usage" width=200px height=200px title="Clean DataSource usage"></td>
+    <td><img src="images/lines/f_three_lines.gif" alt="More lines and sky-is-the-limit" width=200px height=200px title="More lines and sky-is-the-limit"></td>
   </tr>
   </table>
 
@@ -37,7 +37,7 @@ Collection of scripts & recipes demonstrating usual || not so usual usage of Bok
 
   <table>
   <tr>
-    <td><img src="images/lines/work-work-in-progress.gif" alt="WIP" width=250px height=250px title="WIP"></td>
+    <td><img src="images/lines/work-work-in-progress.gif" alt="WIP" width=200px height=200px title="WIP"></td>
   </tr>
   </table>
 
